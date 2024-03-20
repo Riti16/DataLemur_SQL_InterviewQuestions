@@ -9,7 +9,9 @@ candidates Table:
 Column Name	Type
 candidate_id	integer
 skill	varchar
-candidates Example Input:
+candidates 
+  
+Example Input:
 candidate_id	skill
 123	Python
 123	Tableau
@@ -19,13 +21,13 @@ candidate_id	skill
 234	SQL Server
 345	Python
 345	Tableau
+
+  
 Example Output:
 candidate_id
 123
 Explanation
 Candidate 123 is displayed because they have Python, Tableau, and PostgreSQL skills. 345 isn't included in the output because they're missing one of the required skills: PostgreSQL.
-
-The dataset you are querying against may have different input & output - this is just an example!
 
 ************************************************************************************************************************************************************************************************
 Query:
